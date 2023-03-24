@@ -1,5 +1,14 @@
-function ImageList() {
-  return <div>ImageList</div>;
+import ImageItem from "./ImageItem";
+
+function ImageList({ images }) {
+  console.log(images);
+  return (
+    <div>
+      {/* {images.map((img) => (
+        <ImageItem />
+      ))} */}
+    </div>
+  );
 }
 
 export default ImageList;
