@@ -1,12 +1,12 @@
-import ImageItem from "./ImageItem";
+import ImageItem from './ImageItem';
 
 function ImageList({ images }) {
   console.log(images);
   return (
     <div>
-      {/* {images.map((img) => (
-        <ImageItem />
-      ))} */}
+      {images.map((img, index) => (
+        <ImageItem image={img} key={index} />
+      ))}
     </div>
   );
 }

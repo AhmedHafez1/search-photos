@@ -1,4 +1,4 @@
-function ImageItem() {
+function ImageItem({ image }) {
   return <div>ImageItem</div>;
 }
 

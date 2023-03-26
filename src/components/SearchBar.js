@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 function SearchBar({ submitSearch }) {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
