@@ -4,8 +4,8 @@ function ImageList({ images }) {
   console.log(images);
   return (
     <div>
-      {images.map((img, index) => (
-        <ImageItem image={img} key={index} />
+      {images.map((img) => (
+        <ImageItem image={img} key={img.id} />
       ))}
     </div>
   );

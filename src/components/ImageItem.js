@@ -1,5 +1,5 @@
 function ImageItem({ image }) {
-  return <div>ImageItem</div>;
+  return <div>{image.id}</div>;
 }
 
 export default ImageItem;
